@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "name": "Manning Ltd",
+    "category": "restaurant",
+    "priceRange": 33,
+    "rating": 3.9,
+    "lat": 53.345367,
+    "lng": -6.233813,
+    "image": "https://loremflickr.com/320/240/restaurant",
+    "description": "Delicious food served daily.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/1",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 2,
+    "name": "Gray-Hernandez",
+    "category": "attraction",
+    "priceRange": 16,
+    "rating": 4.6,
+    "lat": 53.321506,
+    "lng": -6.225435,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/2",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 3,
+    "name": "Walker, King and Meyer",
+    "category": "gym",
+    "priceRange": 95,
+    "rating": 4.0,
+    "lat": 53.376759,
+    "lng": -6.271804,
+    "image": "https://loremflickr.com/320/240/gym",
+    "description": "Modern equipment and personal training.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/3",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 4,
+    "name": "Davies PLC",
+    "category": "restaurant",
+    "priceRange": 82,
+    "rating": 4.0,
+    "lat": 53.381451,
+    "lng": -6.292332,
+    "image": "https://loremflickr.com/320/240/restaurant",
+    "description": "Delicious food served daily.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/4",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 5,
+    "name": "Cole, Edwards and Johnson",
+    "category": "attraction",
+    "priceRange": 33,
+    "rating": 4.9,
+    "lat": 53.334151,
+    "lng": -6.270251,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/5",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 6,
+    "name": "Garcia, Buchanan and Porter",
+    "category": "cafe",
+    "priceRange": 40,
+    "rating": 4.2,
+    "lat": 53.332785,
+    "lng": -6.293089,
+    "image": "https://loremflickr.com/320/240/cafe",
+    "description": "Perfect for coffee lovers and remote work.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/6",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 7,
+    "name": "Johnson-Peters",
+    "category": "hotel",
+    "priceRange": 72,
+    "rating": 4.6,
+    "lat": 53.385228,
+    "lng": -6.281899,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/7",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 8,
+    "name": "Martin and Sons",
+    "category": "hotel",
+    "priceRange": 80,
+    "rating": 3.6,
+    "lat": 53.341406,
+    "lng": -6.237599,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/8",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 9,
+    "name": "Smith-Carney",
+    "category": "attraction",
+    "priceRange": 96,
+    "rating": 4.9,
+    "lat": 53.357892,
+    "lng": -6.28618,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/9",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 10,
+    "name": "Landry, Dunn and Palmer",
+    "category": "museum",
+    "priceRange": 94,
+    "rating": 3.2,
+    "lat": 53.388523,
+    "lng": -6.230432,
+    "image": "https://loremflickr.com/320/240/museum",
+    "description": "Explore history and art collections.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/10",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 11,
+    "name": "Rios and Sons",
+    "category": "cafe",
+    "priceRange": 85,
+    "rating": 4.8,
+    "lat": 53.389885,
+    "lng": -6.276887,
+    "image": "https://loremflickr.com/320/240/cafe",
+    "description": "Perfect for coffee lovers and remote work.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/11",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 12,
+    "name": "Green, Mathews and Hernandez",
+    "category": "museum",
+    "priceRange": 20,
+    "rating": 4.6,
+    "lat": 53.386758,
+    "lng": -6.265746,
+    "image": "https://loremflickr.com/320/240/museum",
+    "description": "Explore history and art collections.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/12",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 13,
+    "name": "Ross-Ruiz",
+    "category": "cafe",
+    "priceRange": 84,
+    "rating": 3.6,
+    "lat": 53.348963,
+    "lng": -6.273031,
+    "image": "https://loremflickr.com/320/240/cafe",
+    "description": "Perfect for coffee lovers and remote work.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/13",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 14,
+    "name": "Dyer, Garcia and Johnson",
+    "category": "attraction",
+    "priceRange": 68,
+    "rating": 3.4,
+    "lat": 53.36006,
+    "lng": -6.244591,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/14",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 15,
+    "name": "Stephenson, Moore and Thompson",
+    "category": "restaurant",
+    "priceRange": 68,
+    "rating": 3.9,
+    "lat": 53.393345,
+    "lng": -6.238902,
+    "image": "https://loremflickr.com/320/240/restaurant",
+    "description": "Delicious food served daily.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/15",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 16,
+    "name": "Martinez-Myers",
+    "category": "attraction",
+    "priceRange": 30,
+    "rating": 3.5,
+    "lat": 53.336963,
+    "lng": -6.21246,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/16",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 17,
+    "name": "Wu PLC",
+    "category": "hotel",
+    "priceRange": 57,
+    "rating": 4.6,
+    "lat": 53.342428,
+    "lng": -6.261969,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/17",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 18,
+    "name": "Scott Ltd",
+    "category": "hotel",
+    "priceRange": 32,
+    "rating": 4.4,
+    "lat": 53.313356,
+    "lng": -6.238833,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/18",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 19,
+    "name": "Moss LLC",
+    "category": "attraction",
+    "priceRange": 20,
+    "rating": 3.0,
+    "lat": 53.333304,
+    "lng": -6.251932,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/19",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 20,
+    "name": "Brown-Walker",
+    "category": "hotel",
+    "priceRange": 16,
+    "rating": 3.5,
+    "lat": 53.387193,
+    "lng": -6.223191,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/20",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 21,
+    "name": "Davis-Carter",
+    "category": "cafe",
+    "priceRange": 86,
+    "rating": 4.4,
+    "lat": 53.34014,
+    "lng": -6.261236,
+    "image": "https://loremflickr.com/320/240/cafe",
+    "description": "Perfect for coffee lovers and remote work.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/21",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 22,
+    "name": "Wong-Miller",
+    "category": "attraction",
+    "priceRange": 13,
+    "rating": 3.1,
+    "lat": 53.315707,
+    "lng": -6.216506,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/22",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 23,
+    "name": "Salas-Morales",
+    "category": "gym",
+    "priceRange": 80,
+    "rating": 4.0,
+    "lat": 53.362263,
+    "lng": -6.248682,
+    "image": "https://loremflickr.com/320/240/gym",
+    "description": "Modern equipment and personal training.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/23",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 24,
+    "name": "Dean Ltd",
+    "category": "attraction",
+    "priceRange": 54,
+    "rating": 4.8,
+    "lat": 53.362205,
+    "lng": -6.296014,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/24",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 25,
+    "name": "Perez PLC",
+    "category": "hotel",
+    "priceRange": 11,
+    "rating": 3.8,
+    "lat": 53.378118,
+    "lng": -6.237971,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/25",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 26,
+    "name": "Santos, Moreno and Huff",
+    "category": "attraction",
+    "priceRange": 68,
+    "rating": 4.9,
+    "lat": 53.391823,
+    "lng": -6.233582,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/26",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 27,
+    "name": "Sullivan Group",
+    "category": "restaurant",
+    "priceRange": 86,
+    "rating": 4.0,
+    "lat": 53.301055,
+    "lng": -6.263571,
+    "image": "https://loremflickr.com/320/240/restaurant",
+    "description": "Delicious food served daily.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/27",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 28,
+    "name": "Cohen, Green and Gross",
+    "category": "museum",
+    "priceRange": 21,
+    "rating": 4.1,
+    "lat": 53.384844,
+    "lng": -6.203188,
+    "image": "https://loremflickr.com/320/240/museum",
+    "description": "Explore history and art collections.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/28",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 29,
+    "name": "Griffin-Figueroa",
+    "category": "gym",
+    "priceRange": 75,
+    "rating": 3.0,
+    "lat": 53.355709,
+    "lng": -6.293398,
+    "image": "https://loremflickr.com/320/240/gym",
+    "description": "Modern equipment and personal training.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/29",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 30,
+    "name": "Sampson-Allen",
+    "category": "museum",
+    "priceRange": 97,
+    "rating": 3.7,
+    "lat": 53.383704,
+    "lng": -6.253698,
+    "image": "https://loremflickr.com/320/240/museum",
+    "description": "Explore history and art collections.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/30",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 31,
+    "name": "Gilbert, Ford and Barry",
+    "category": "attraction",
+    "priceRange": 60,
+    "rating": 3.4,
+    "lat": 53.343928,
+    "lng": -6.208468,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/31",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 32,
+    "name": "Smith-Vasquez",
+    "category": "gym",
+    "priceRange": 98,
+    "rating": 4.9,
+    "lat": 53.365074,
+    "lng": -6.265096,
+    "image": "https://loremflickr.com/320/240/gym",
+    "description": "Modern equipment and personal training.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/32",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 33,
+    "name": "Madden, Parsons and Johnson",
+    "category": "attraction",
+    "priceRange": 20,
+    "rating": 4.6,
+    "lat": 53.354829,
+    "lng": -6.274874,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/33",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 34,
+    "name": "Carter and Sons",
+    "category": "museum",
+    "priceRange": 58,
+    "rating": 4.4,
+    "lat": 53.366318,
+    "lng": -6.296261,
+    "image": "https://loremflickr.com/320/240/museum",
+    "description": "Explore history and art collections.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/34",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 35,
+    "name": "Wilson-Moore",
+    "category": "museum",
+    "priceRange": 35,
+    "rating": 3.8,
+    "lat": 53.302175,
+    "lng": -6.241194,
+    "image": "https://loremflickr.com/320/240/museum",
+    "description": "Explore history and art collections.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/35",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 36,
+    "name": "Johnson Inc",
+    "category": "hotel",
+    "priceRange": 30,
+    "rating": 3.2,
+    "lat": 53.303649,
+    "lng": -6.290002,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/36",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 37,
+    "name": "Beard, Riley and Berg",
+    "category": "hotel",
+    "priceRange": 30,
+    "rating": 3.7,
+    "lat": 53.313393,
+    "lng": -6.23008,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/37",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 38,
+    "name": "Harding-Cook",
+    "category": "museum",
+    "priceRange": 40,
+    "rating": 3.9,
+    "lat": 53.380141,
+    "lng": -6.255654,
+    "image": "https://loremflickr.com/320/240/museum",
+    "description": "Explore history and art collections.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/38",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 39,
+    "name": "Miller-Ramirez",
+    "category": "cafe",
+    "priceRange": 49,
+    "rating": 4.4,
+    "lat": 53.348221,
+    "lng": -6.247525,
+    "image": "https://loremflickr.com/320/240/cafe",
+    "description": "Perfect for coffee lovers and remote work.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/39",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 40,
+    "name": "Rollins and Sons",
+    "category": "gym",
+    "priceRange": 36,
+    "rating": 4.0,
+    "lat": 53.390152,
+    "lng": -6.284575,
+    "image": "https://loremflickr.com/320/240/gym",
+    "description": "Modern equipment and personal training.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/40",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 41,
+    "name": "Petersen PLC",
+    "category": "cafe",
+    "priceRange": 46,
+    "rating": 3.6,
+    "lat": 53.376677,
+    "lng": -6.29717,
+    "image": "https://loremflickr.com/320/240/cafe",
+    "description": "Perfect for coffee lovers and remote work.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/41",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 42,
+    "name": "Jones-Kelly",
+    "category": "gym",
+    "priceRange": 15,
+    "rating": 3.6,
+    "lat": 53.347857,
+    "lng": -6.222555,
+    "image": "https://loremflickr.com/320/240/gym",
+    "description": "Modern equipment and personal training.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/42",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 43,
+    "name": "Aguilar PLC",
+    "category": "attraction",
+    "priceRange": 41,
+    "rating": 3.9,
+    "lat": 53.377476,
+    "lng": -6.254403,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/43",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 44,
+    "name": "Smith, Bond and Miller",
+    "category": "cafe",
+    "priceRange": 35,
+    "rating": 4.4,
+    "lat": 53.381602,
+    "lng": -6.286544,
+    "image": "https://loremflickr.com/320/240/cafe",
+    "description": "Perfect for coffee lovers and remote work.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/44",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 45,
+    "name": "Rocha, Olsen and Holloway",
+    "category": "hotel",
+    "priceRange": 14,
+    "rating": 4.2,
+    "lat": 53.310814,
+    "lng": -6.264837,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/45",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 46,
+    "name": "Banks Inc",
+    "category": "restaurant",
+    "priceRange": 100,
+    "rating": 3.4,
+    "lat": 53.362627,
+    "lng": -6.218015,
+    "image": "https://loremflickr.com/320/240/restaurant",
+    "description": "Delicious food served daily.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/46",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 47,
+    "name": "Hubbard, Collins and Johnson",
+    "category": "museum",
+    "priceRange": 17,
+    "rating": 4.3,
+    "lat": 53.337402,
+    "lng": -6.247534,
+    "image": "https://loremflickr.com/320/240/museum",
+    "description": "Explore history and art collections.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/47",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 48,
+    "name": "Reyes, Hodges and Lewis",
+    "category": "attraction",
+    "priceRange": 43,
+    "rating": 4.1,
+    "lat": 53.384412,
+    "lng": -6.215298,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/48",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 49,
+    "name": "Duran, Hardy and Smith",
+    "category": "gym",
+    "priceRange": 91,
+    "rating": 4.5,
+    "lat": 53.348558,
+    "lng": -6.244426,
+    "image": "https://loremflickr.com/320/240/gym",
+    "description": "Modern equipment and personal training.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/49",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 50,
+    "name": "Bishop, Fleming and Hall",
+    "category": "gym",
+    "priceRange": 67,
+    "rating": 3.7,
+    "lat": 53.358923,
+    "lng": -6.251432,
+    "image": "https://loremflickr.com/320/240/gym",
+    "description": "Modern equipment and personal training.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/50",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 51,
+    "name": "Hanson, Webster and Duncan",
+    "category": "cafe",
+    "priceRange": 26,
+    "rating": 3.1,
+    "lat": 53.336869,
+    "lng": -6.206788,
+    "image": "https://loremflickr.com/320/240/cafe",
+    "description": "Perfect for coffee lovers and remote work.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/51",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 52,
+    "name": "Campbell-Rhodes",
+    "category": "attraction",
+    "priceRange": 69,
+    "rating": 3.2,
+    "lat": 53.383322,
+    "lng": -6.216231,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/52",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 53,
+    "name": "Gray Ltd",
+    "category": "restaurant",
+    "priceRange": 86,
+    "rating": 3.7,
+    "lat": 53.327207,
+    "lng": -6.289205,
+    "image": "https://loremflickr.com/320/240/restaurant",
+    "description": "Delicious food served daily.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/53",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 54,
+    "name": "Wilson, Turner and Hudson",
+    "category": "cafe",
+    "priceRange": 84,
+    "rating": 3.8,
+    "lat": 53.314497,
+    "lng": -6.218758,
+    "image": "https://loremflickr.com/320/240/cafe",
+    "description": "Perfect for coffee lovers and remote work.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/54",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 55,
+    "name": "Morgan, Mills and Clark",
+    "category": "attraction",
+    "priceRange": 23,
+    "rating": 4.1,
+    "lat": 53.31867,
+    "lng": -6.271062,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/55",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 56,
+    "name": "Banks, Nguyen and Vargas",
+    "category": "gym",
+    "priceRange": 95,
+    "rating": 4.2,
+    "lat": 53.312068,
+    "lng": -6.274727,
+    "image": "https://loremflickr.com/320/240/gym",
+    "description": "Modern equipment and personal training.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/56",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 57,
+    "name": "Sparks-Franklin",
+    "category": "gym",
+    "priceRange": 88,
+    "rating": 3.1,
+    "lat": 53.317184,
+    "lng": -6.276014,
+    "image": "https://loremflickr.com/320/240/gym",
+    "description": "Modern equipment and personal training.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/57",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 58,
+    "name": "Gonzalez Inc",
+    "category": "cafe",
+    "priceRange": 43,
+    "rating": 4.0,
+    "lat": 53.391627,
+    "lng": -6.264329,
+    "image": "https://loremflickr.com/320/240/cafe",
+    "description": "Perfect for coffee lovers and remote work.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/58",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 59,
+    "name": "Smith-Bray",
+    "category": "gym",
+    "priceRange": 33,
+    "rating": 4.0,
+    "lat": 53.348683,
+    "lng": -6.228681,
+    "image": "https://loremflickr.com/320/240/gym",
+    "description": "Modern equipment and personal training.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/59",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 60,
+    "name": "Black-Harris",
+    "category": "hotel",
+    "priceRange": 13,
+    "rating": 4.0,
+    "lat": 53.37798,
+    "lng": -6.281986,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/60",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 61,
+    "name": "Bentley-Sanders",
+    "category": "museum",
+    "priceRange": 97,
+    "rating": 3.7,
+    "lat": 53.388094,
+    "lng": -6.246277,
+    "image": "https://loremflickr.com/320/240/museum",
+    "description": "Explore history and art collections.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/61",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 62,
+    "name": "Sanders, English and Thomas",
+    "category": "gym",
+    "priceRange": 89,
+    "rating": 3.7,
+    "lat": 53.362609,
+    "lng": -6.253218,
+    "image": "https://loremflickr.com/320/240/gym",
+    "description": "Modern equipment and personal training.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/62",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 63,
+    "name": "Kelly-Mitchell",
+    "category": "restaurant",
+    "priceRange": 51,
+    "rating": 4.0,
+    "lat": 53.322685,
+    "lng": -6.290416,
+    "image": "https://loremflickr.com/320/240/restaurant",
+    "description": "Delicious food served daily.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/63",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 64,
+    "name": "King Inc",
+    "category": "museum",
+    "priceRange": 25,
+    "rating": 4.5,
+    "lat": 53.357441,
+    "lng": -6.226817,
+    "image": "https://loremflickr.com/320/240/museum",
+    "description": "Explore history and art collections.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/64",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 65,
+    "name": "Wilson LLC",
+    "category": "restaurant",
+    "priceRange": 76,
+    "rating": 4.4,
+    "lat": 53.341299,
+    "lng": -6.271735,
+    "image": "https://loremflickr.com/320/240/restaurant",
+    "description": "Delicious food served daily.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/65",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 66,
+    "name": "Morales Group",
+    "category": "museum",
+    "priceRange": 18,
+    "rating": 3.9,
+    "lat": 53.358247,
+    "lng": -6.290045,
+    "image": "https://loremflickr.com/320/240/museum",
+    "description": "Explore history and art collections.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/66",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 67,
+    "name": "Ramsey LLC",
+    "category": "restaurant",
+    "priceRange": 45,
+    "rating": 3.9,
+    "lat": 53.367766,
+    "lng": -6.228378,
+    "image": "https://loremflickr.com/320/240/restaurant",
+    "description": "Delicious food served daily.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/67",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 68,
+    "name": "Garcia, Harris and Delgado",
+    "category": "cafe",
+    "priceRange": 59,
+    "rating": 3.2,
+    "lat": 53.389621,
+    "lng": -6.200455,
+    "image": "https://loremflickr.com/320/240/cafe",
+    "description": "Perfect for coffee lovers and remote work.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/68",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 69,
+    "name": "Duarte, Wright and Chang",
+    "category": "cafe",
+    "priceRange": 70,
+    "rating": 4.5,
+    "lat": 53.352135,
+    "lng": -6.225448,
+    "image": "https://loremflickr.com/320/240/cafe",
+    "description": "Perfect for coffee lovers and remote work.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/69",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 70,
+    "name": "Smith-Brown",
+    "category": "attraction",
+    "priceRange": 41,
+    "rating": 3.6,
+    "lat": 53.390029,
+    "lng": -6.295271,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/70",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 71,
+    "name": "Dawson, Davis and Kirby",
+    "category": "hotel",
+    "priceRange": 20,
+    "rating": 4.7,
+    "lat": 53.381535,
+    "lng": -6.270359,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/71",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 72,
+    "name": "Vasquez and Sons",
+    "category": "hotel",
+    "priceRange": 90,
+    "rating": 4.9,
+    "lat": 53.335917,
+    "lng": -6.249938,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/72",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 73,
+    "name": "Moore Inc",
+    "category": "hotel",
+    "priceRange": 74,
+    "rating": 4.0,
+    "lat": 53.351533,
+    "lng": -6.271727,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/73",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 74,
+    "name": "Clark-Sanchez",
+    "category": "gym",
+    "priceRange": 43,
+    "rating": 4.9,
+    "lat": 53.357105,
+    "lng": -6.229295,
+    "image": "https://loremflickr.com/320/240/gym",
+    "description": "Modern equipment and personal training.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/74",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 75,
+    "name": "Richardson, Hernandez and Porter",
+    "category": "hotel",
+    "priceRange": 89,
+    "rating": 3.9,
+    "lat": 53.368955,
+    "lng": -6.232915,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/75",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 76,
+    "name": "Mcguire-Lynch",
+    "category": "museum",
+    "priceRange": 75,
+    "rating": 3.5,
+    "lat": 53.30942,
+    "lng": -6.253683,
+    "image": "https://loremflickr.com/320/240/museum",
+    "description": "Explore history and art collections.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/76",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 77,
+    "name": "Thomas, Chavez and Jimenez",
+    "category": "hotel",
+    "priceRange": 76,
+    "rating": 4.9,
+    "lat": 53.325548,
+    "lng": -6.280125,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/77",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 78,
+    "name": "Donovan Ltd",
+    "category": "hotel",
+    "priceRange": 23,
+    "rating": 4.7,
+    "lat": 53.399243,
+    "lng": -6.228139,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/78",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 79,
+    "name": "Ryan-Hess",
+    "category": "gym",
+    "priceRange": 86,
+    "rating": 3.4,
+    "lat": 53.306855,
+    "lng": -6.248444,
+    "image": "https://loremflickr.com/320/240/gym",
+    "description": "Modern equipment and personal training.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/79",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 80,
+    "name": "Lopez, Johnson and Stafford",
+    "category": "museum",
+    "priceRange": 89,
+    "rating": 3.1,
+    "lat": 53.332502,
+    "lng": -6.2515,
+    "image": "https://loremflickr.com/320/240/museum",
+    "description": "Explore history and art collections.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/80",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 81,
+    "name": "Zuniga, Rivera and Walker",
+    "category": "restaurant",
+    "priceRange": 47,
+    "rating": 3.6,
+    "lat": 53.328325,
+    "lng": -6.244262,
+    "image": "https://loremflickr.com/320/240/restaurant",
+    "description": "Delicious food served daily.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/81",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 82,
+    "name": "Smith-Boone",
+    "category": "gym",
+    "priceRange": 80,
+    "rating": 3.8,
+    "lat": 53.327903,
+    "lng": -6.265712,
+    "image": "https://loremflickr.com/320/240/gym",
+    "description": "Modern equipment and personal training.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/82",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 83,
+    "name": "Reilly PLC",
+    "category": "restaurant",
+    "priceRange": 10,
+    "rating": 3.3,
+    "lat": 53.365975,
+    "lng": -6.298656,
+    "image": "https://loremflickr.com/320/240/restaurant",
+    "description": "Delicious food served daily.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/83",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 84,
+    "name": "Watkins-Weber",
+    "category": "attraction",
+    "priceRange": 99,
+    "rating": 4.1,
+    "lat": 53.396511,
+    "lng": -6.285123,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/84",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 85,
+    "name": "Solomon-Foster",
+    "category": "attraction",
+    "priceRange": 45,
+    "rating": 4.4,
+    "lat": 53.32216,
+    "lng": -6.220087,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/85",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 86,
+    "name": "Price-Butler",
+    "category": "cafe",
+    "priceRange": 12,
+    "rating": 4.1,
+    "lat": 53.33452,
+    "lng": -6.295131,
+    "image": "https://loremflickr.com/320/240/cafe",
+    "description": "Perfect for coffee lovers and remote work.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/86",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 87,
+    "name": "Hodges-Fernandez",
+    "category": "gym",
+    "priceRange": 84,
+    "rating": 4.4,
+    "lat": 53.333513,
+    "lng": -6.212041,
+    "image": "https://loremflickr.com/320/240/gym",
+    "description": "Modern equipment and personal training.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/87",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 88,
+    "name": "Carter-Berg",
+    "category": "attraction",
+    "priceRange": 28,
+    "rating": 3.1,
+    "lat": 53.36533,
+    "lng": -6.242493,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/88",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 89,
+    "name": "Rios and Sons",
+    "category": "museum",
+    "priceRange": 40,
+    "rating": 3.1,
+    "lat": 53.390534,
+    "lng": -6.27605,
+    "image": "https://loremflickr.com/320/240/museum",
+    "description": "Explore history and art collections.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/89",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 90,
+    "name": "Chang-Castro",
+    "category": "museum",
+    "priceRange": 94,
+    "rating": 4.8,
+    "lat": 53.323867,
+    "lng": -6.298801,
+    "image": "https://loremflickr.com/320/240/museum",
+    "description": "Explore history and art collections.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/90",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 91,
+    "name": "Rogers Ltd",
+    "category": "museum",
+    "priceRange": 83,
+    "rating": 4.3,
+    "lat": 53.379293,
+    "lng": -6.23756,
+    "image": "https://loremflickr.com/320/240/museum",
+    "description": "Explore history and art collections.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/91",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 92,
+    "name": "Cook, Long and Hall",
+    "category": "cafe",
+    "priceRange": 89,
+    "rating": 4.8,
+    "lat": 53.317465,
+    "lng": -6.245442,
+    "image": "https://loremflickr.com/320/240/cafe",
+    "description": "Perfect for coffee lovers and remote work.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/92",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 93,
+    "name": "Lucas, Leonard and Hernandez",
+    "category": "attraction",
+    "priceRange": 73,
+    "rating": 4.3,
+    "lat": 53.36487,
+    "lng": -6.256317,
+    "image": "https://loremflickr.com/320/240/attraction",
+    "description": "A must-see location for tourists.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/93",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 94,
+    "name": "Johnson Group",
+    "category": "hotel",
+    "priceRange": 12,
+    "rating": 4.1,
+    "lat": 53.381967,
+    "lng": -6.236159,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/94",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 95,
+    "name": "Park PLC",
+    "category": "hotel",
+    "priceRange": 85,
+    "rating": 4.0,
+    "lat": 53.313437,
+    "lng": -6.21968,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/95",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 96,
+    "name": "Mcguire, Olson and Mullins",
+    "category": "hotel",
+    "priceRange": 99,
+    "rating": 3.1,
+    "lat": 53.376979,
+    "lng": -6.299971,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/96",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 97,
+    "name": "Barber Group",
+    "category": "cafe",
+    "priceRange": 62,
+    "rating": 3.4,
+    "lat": 53.392772,
+    "lng": -6.249438,
+    "image": "https://loremflickr.com/320/240/cafe",
+    "description": "Perfect for coffee lovers and remote work.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/97",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 98,
+    "name": "Parker-Steele",
+    "category": "gym",
+    "priceRange": 45,
+    "rating": 4.4,
+    "lat": 53.367021,
+    "lng": -6.210115,
+    "image": "https://loremflickr.com/320/240/gym",
+    "description": "Modern equipment and personal training.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/98",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 99,
+    "name": "Lynch PLC",
+    "category": "hotel",
+    "priceRange": 40,
+    "rating": 3.9,
+    "lat": 53.380669,
+    "lng": -6.262512,
+    "image": "https://loremflickr.com/320/240/hotel",
+    "description": "Comfortable accommodation with great views.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/99",
+      "moreInfo": true
+    }
+  },
+  {
+    "id": 100,
+    "name": "Liu-Burnett",
+    "category": "gym",
+    "priceRange": 14,
+    "rating": 4.4,
+    "lat": 53.376134,
+    "lng": -6.261452,
+    "image": "https://loremflickr.com/320/240/gym",
+    "description": "Modern equipment and personal training.",
+    "actions": {
+      "bookingUrl": "https://anothertrip.com/book/100",
+      "moreInfo": true
+    }
+  }
+]

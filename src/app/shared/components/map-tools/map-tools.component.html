@@ -1,0 +1,29 @@
+<div class="cursor-pointer rounded-lg flex flex-col sm:flex-row gap-3 bg-white-400 sm:items-center backdrop-blur-md rounded-lg ">
+  <button
+    (click)="toggleRouteMode.emit()"
+    class="px-2 rounded-lg border text-sm font-medium transition  h-[40px] cursor-pointer hover:bg-red-500 bg-black h-[40px] px-3 text-white  rounded-lg transition"
+    [class.bg-red-700]="isRouteMode"
+   
+  >
+    {{ isRouteMode ? 'Off Distance Mode' : 'On Distance Mode' }}
+  </button>
+
+  @if (hasDirections) {
+    <button
+      (click)="clearRoute.emit()"
+      class="px-4 py-2 rounded-md bg-red-600 hover:bg-red-700 text-white text-sm font-medium transition"
+    >
+      🗑️ Clear Route
+    </button>
+  }
+</div>
+
+
+<!-- [class.bg-green-600]="isRouteMode"
+[class.text-white]="isRouteMode"
+[class.border-green-600]="isRouteMode"
+[class.hover:bg-red-700]="isRouteMode"
+[class.hover:border-green-700]="isRouteMode"
+[class.text-gray-800]="!isRouteMode"
+[class.border-gray-300]="!isRouteMode"
+[class.hover:bg-gray-100]="!isRouteMode" -->

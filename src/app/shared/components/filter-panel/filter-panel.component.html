@@ -1,0 +1,53 @@
+<div class="map-toolbar h-full w-full max-w-md bg-white/30 backdrop-blur-md shadow-lg rounded-xl p-5 border border-white/20 flex flex-col gap-4 text-sm">
+
+  <div class="flex justify-between items-center">
+    <h3 class="text-lg font-semibold">Filters</h3>
+    <button (click)="closeDrawer.emit()" class="cursor-pointer text-red hover:text-red-500 text-ms">✖</button>
+  </div>
+
+  <div class="filter-section">
+    <label class="block font-medium mb-1">💰 Price Range: <span class="font-semibold">{{ form.minPrice }}</span> - <span class="font-semibold">{{ form.maxPrice }}</span></label>
+
+    <div class="flex flex-col gap-2">
+      <input type="range" min="1" max="100" [(ngModel)]="form.minPrice" class="range range-primary" />
+      <input type="range" min="1" max="100" [(ngModel)]="form.maxPrice" class="range range-primary" />
+    </div>
+  </div>
+
+  <div class="filter-section">
+    <label class="block font-medium mb-1">⭐ Minimum Rating: <span class="font-semibold">{{ form.minRating }}</span></label>
+    <input type="range" min="1" max="5" step="0.1" [(ngModel)]="form.minRating" class="range range-secondary w-full" />
+  </div>
+
+  <div class="filter-section">
+    <label for="category" class="block font-medium mb-1">🏷️ Category:</label>
+    <select
+      id="category"
+      [(ngModel)]="form.category"
+      class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+    >
+      <option value="all">All</option>
+      <option value="hotel">Hotels</option>
+      <option value="restaurant">Restaurants</option>
+      <option value="attraction">Attractions</option>
+      <option value="cafe">Cafes</option>
+      <option value="museum">Museums</option>
+      <option value="gym">Gyms</option>
+    </select>
+  </div>
+
+  <div class="flex justify-between   flex gap-3  pt-2 mt-auto">
+    <button
+      (click)="apply.emit()"
+      class="cursor-pointer py-2 bg-black hover:bg-red-700 text-white rounded-md transition w-full"
+    >
+      Apply
+    </button>
+    <button
+      (click)="reset.emit()"
+      class="cursor-pointer py-2 bg-gray-300 hover:bg-gray-400 text-black-800 rounded-md transition w-full"
+    >
+      Reset
+    </button>
+  </div>
+</div>

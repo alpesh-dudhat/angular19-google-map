@@ -1,0 +1,39 @@
+<div class="sm:hidden flex items-center">
+  <button (click)="showSearchBar = !showSearchBar" class="cursor-pointer p-3 rounded-full hover:bg-red-500 bg-white backdrop-blur-md text-dark text-sm font-medium transition">
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 24 24" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 2; overflow: visible;">
+      <path d="M 10 2 C 5.5935644 2 2 5.5935677 2 10 C 2 14.406432 5.5935644 18 10 18 C 11.844022 18 13.540969 17.365427 14.896484 16.310547 L 20.292969 21.707031 A 1.0001 1.0001 0 1 0 21.707031 20.292969 L 16.310547 14.896484 C 17.365427 13.540969 18 11.844021 18 10 C 18 5.5935677 14.406436 2 10 2 z M 10 4 C 13.325556 4 16 6.674446 16 10 C 16 13.325554 13.325556 16 10 16 C 6.6744439 16 4 13.325554 4 10 C 4 6.674446 6.6744439 4 10 4 z"></path>
+      </svg>
+  </button>
+</div>
+
+<div
+  class="w-full flex flex-col sm:flex-row gap-3 items-start sm:items-center transition-all duration-300 fixed top-[70px] left-0 p-2 sm:p-0 bg-gray-600 sm:bg-transparent sm:static"
+  [ngClass]="{
+    'hidden': !showSearchBar,
+    'flex': showSearchBar
+  }"
+  [class.sm:flex]="true"  
+>
+  <input
+    type="text"
+    [(ngModel)]="query"
+    (ngModelChange)="queryChange.emit($event)"
+    placeholder="Search by name or category"
+    class="w-full sm:w-64 h-[40px] px-2 rounded-lg focus:outline-none bg-white"
+  />
+
+  <div class="flex gap-2">
+    <button
+      (click)="search.emit()"
+      class="hover:bg-red-500 bg-black h-[40px] px-3 text-white rounded-lg transition"
+    >
+      Search
+    </button>
+    <button
+      (click)="clear.emit()"
+      class="hover:bg-red-500 bg-white h-[40px] px-3 text-black rounded-lg transition"
+    >
+      Clear
+    </button>
+  </div>
+</div>

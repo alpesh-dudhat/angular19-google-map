@@ -1,0 +1,29 @@
+<div class="modal-overlay fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+  <div class="modal bg-white rounded-lg shadow-lg p-6 w-full max-w-md mx-4">
+    <h2 class="text-xl font-bold mb-4 text-center">Enter your location</h2>
+
+    <input
+      type="text"
+      id="autocompleteInput"
+      [(ngModel)]="userAddress"
+      (ngModelChange)="userAddressChange.emit($event)"
+      placeholder="e.g. Dublin"
+      class="w-full px-4 py-2 border border-gray-300 rounded mb-4 focus:outline-none focus:ring focus:border-blue-400"
+    />
+
+    <div class="modal-buttons flex justify-between">
+      <button
+        (click)="confirm.emit()"
+        class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded transition"
+      >
+        Draw Route
+      </button>
+      <button
+        (click)="cancel.emit()"
+        class="bg-gray-300 hover:bg-gray-400 text-gray-800 px-4 py-2 rounded transition"
+      >
+        Cancel
+      </button>
+    </div>
+  </div>
+</div>

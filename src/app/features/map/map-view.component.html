@@ -1,0 +1,86 @@
+<google-map
+  #googleMap
+  height="100vh"
+  width="100vw"
+  [options]="mapOptions"
+>
+  @for (place of places; track place.id) {
+    <map-advanced-marker
+      #marker="mapAdvancedMarker"
+      [position]="{ lat: place.lat, lng: place.lng }"
+      (mapClick)="onMarkerClick(place, marker)"
+      [title]="place.name"
+      [zIndex]="9999"
+    ></map-advanced-marker>
+  }
+
+  <map-info-window #infoWindow>
+    <div class="info-window-content max-w-xs sm:max-w-sm md:max-w-md w-full">
+      <div class="bg-white rounded-lg shadow-xl overflow-hidden">
+    
+        <div class="w-full h-36 sm:h-40 overflow-hidden">
+          <img
+            [src]="selectedPlace?.image"
+            alt="{{ selectedPlace?.name }}"
+            class="w-full h-full object-cover"
+          />
+        </div>
+    
+        <div class="p-3 sm:p-4">
+          <div class="flex justify-between items-center mb-2">
+            <h3 class="text-base font-semibold text-gray-900">
+              {{ selectedPlace?.name }}
+            </h3>
+            <span class="text-xs bg-blue-100 text-blue-800 px-2 py-0.5 rounded">
+              {{ selectedPlace?.rating }} ★
+            </span>
+          </div>
+    
+          <div class="text-xs text-gray-700 mb-1" *ngIf="weather.temperature !== undefined">
+            <div class="flex items-center gap-1">
+              <span>{{ weather.icon }}</span>
+              <span>{{ weather.temperature }}°C - {{ weather.condition }}</span>
+            </div>
+          </div>
+    
+          <button
+            (click)="openRoute.emit()"
+            class="mb-2 text-xs text-blue-600 hover:underline"
+          >
+            🧭 Draw Route
+          </button>
+    
+          <p class="text-xs text-gray-600 mb-2">
+            {{ selectedPlace?.description }}
+          </p>
+    
+          <div class="flex flex-wrap gap-1 mb-3">
+            <span class="px-2 py-0.5 text-[10px] bg-gray-100 text-gray-800 rounded">
+              {{ selectedPlace?.category }}
+            </span>
+            <span class="px-2 py-0.5 text-[10px] bg-green-100 text-green-800 rounded">
+              {{ selectedPlace?.priceRange }} Price
+            </span>
+          </div>
+    
+          <a
+            [href]="selectedPlace?.actions?.bookingUrl"
+            target="_blank"
+            class="block text-center bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium px-3 py-1.5 rounded shadow"
+          >
+            Book Now
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  
+
+    
+    
+  </map-info-window>
+
+  @if (directions) {
+    <map-directions-renderer [directions]="directions" />
+  }
+</google-map>
