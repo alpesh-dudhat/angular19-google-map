@@ -112,6 +112,19 @@ Open your browser at [http://localhost:4200](http://localhost:4200)
 
 ---
 
+### Deprication Notes : ignore it for now or use tailwind >3.5 
+
+This warning is telling you that you're using deprecated syntax in your SCSS (Sass) styles, and it's coming from this line in your styles.scss:
+@import "tailwindcss";
+
+🔍 What's the problem?
+The @import rule is being deprecated (i.e., phased out) in Dart Sass and will be completely removed in version 3.0.0.
+
+🧠 Why is this happening?
+The Sass team is encouraging everyone to migrate to the newer @use and @forward syntax, which is more powerful and avoids naming collisions.
+
+---
+
 ## 🤝 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
