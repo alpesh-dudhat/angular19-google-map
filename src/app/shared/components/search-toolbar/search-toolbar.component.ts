@@ -1,11 +1,12 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { IconComponent } from '../../../icons/icon.component';
 
 @Component({
   selector: 'app-search-toolbar',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule,IconComponent],
   templateUrl: './search-toolbar.component.html',
 })
 export class SearchToolbarComponent {

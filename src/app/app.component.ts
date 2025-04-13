@@ -14,7 +14,7 @@ import { MapOptions } from './interfaces/map-options.interface';
 
 // Component imports
 
-import { CommonModule } from '@angular/common';
+import { CommonModule,NgSwitch, NgSwitchCase, NgSwitchDefault, NgClass } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { SearchToolbarComponent } from './shared/components/search-toolbar/search-toolbar.component';
 import { MapToolsComponent } from './shared/components/map-tools/map-tools.component';
@@ -24,6 +24,7 @@ import { MapViewComponent } from './features/map/map-view.component';
 import { WeatherService } from './core/services/weather.service';
 import { getWeatherIcon, getWeatherCondition } from './shared/utils/weather-utils';
 import { debounceTime, Subject } from 'rxjs';
+import { IconComponent } from './icons/icon.component';
 
 @Component({
   selector: 'app-root',
@@ -35,7 +36,8 @@ import { debounceTime, Subject } from 'rxjs';
     MapToolsComponent,
     FilterPanelComponent,
     RouteModalComponent,
-    MapViewComponent
+    MapViewComponent,
+    IconComponent,
   ],
   templateUrl: './app.component.html',
 })
@@ -166,6 +168,7 @@ export class AppComponent implements OnInit {
 
 
   get hasDirections(): boolean {
+    console.log('hasdirections app ts');
     return !!this.directionsResults$();
   }
 

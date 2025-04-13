@@ -1,11 +1,12 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { IconComponent } from '../../../icons/icon.component';
 
 @Component({
   selector: 'app-filter-panel',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule,IconComponent],
   templateUrl: './filter-panel.component.html',
 })
 export class FilterPanelComponent {
