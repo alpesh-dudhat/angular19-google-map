@@ -23,4 +23,14 @@ export class FilterPanelComponent {
   @Output() apply = new EventEmitter<void>();
   @Output() reset = new EventEmitter<void>();
   @Output() closeDrawer = new EventEmitter<void>()
+
+  onApply(): void {
+    this.apply.emit();
+    this.closeDrawer.emit();
+  }
+  
+  onReset(): void {
+    this.reset.emit();
+    this.closeDrawer.emit();
+  }
 }
