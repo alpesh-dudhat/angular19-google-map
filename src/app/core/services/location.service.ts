@@ -24,6 +24,7 @@ export class LocationService {
               disableDefaultUI: true,
               clickableIcons: false,
               mapId: "DEMO_MAP_ID",
+              // animation: google.maps.Animation.DROP,
             });
           },
           (error) => {
@@ -32,6 +33,7 @@ export class LocationService {
               center: this.defaultCenter,
               zoom: 12,
               mapId: "DEMO_MAP_ID",
+              // animation: google.maps.Animation.DROP,
             });
           }
         );
@@ -41,6 +43,7 @@ export class LocationService {
           center: this.defaultCenter,
           zoom: 12,
           mapId: "DEMO_MAP_ID",
+          // animation: google.maps.Animation.DROP,
         });
       }
     });

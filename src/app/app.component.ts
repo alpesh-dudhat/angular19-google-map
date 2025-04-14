@@ -168,7 +168,7 @@ export class AppComponent implements OnInit {
 
 
   get hasDirections(): boolean {
-    console.log('hasdirections app ts');
+    // console.log('hasdirections app ts');
     return !!this.directionsResults$();
   }
 

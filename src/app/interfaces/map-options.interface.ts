@@ -4,6 +4,7 @@ export interface MapOptions extends google.maps.MapOptions {
     center: google.maps.LatLngLiteral;
     zoom: number;
     mapId: string;
+    // animation: google.maps.Animation;
   }
 
   export interface MapMarkerData {
