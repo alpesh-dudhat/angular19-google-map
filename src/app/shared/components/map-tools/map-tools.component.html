@@ -1,9 +1,9 @@
 <div class="cursor-pointer rounded-lg flex  gap-3 bg-white-400 sm:items-center backdrop-blur-md rounded-lg ">
-  <button
-    (click)="toggleRouteMode.emit()"
-    class="px-1 sm:px-2 rounded-lg border text-sm sm:font-medium transition h-8 sm:h-[40px] cursor-pointer hover:bg-red-500 bg-black text-white transition"
-    [class.bg-red-700]="isRouteMode"
-  >
+  <button (click)="onDistanceModeToggle()"
+    class="px-3 h-8 md:h-10 rounded-lg border text-sm font-medium transition cursor-pointer text-white" [ngClass]="{
+      'bg-red-700 border-red-700 hover:bg-red-800': isRouteMode,
+      'bg-black border-gray-500 hover:bg-gray-800': !isRouteMode
+    }">
     {{ isRouteMode ? 'Off Distance Mode' : 'On Distance Mode' }}
   </button>
 
@@ -17,6 +17,23 @@
   } -->
 </div>
 
+@if (showInfo()){
+
+<div @fadeInOut
+  class="fixed bottom-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full transform max-w-xs "
+  role="alert" tabindex="-1" aria-labelledby="hs-toast-normal-example-label">
+    <div class="m-2 sm:m-0 flex p-2 sm:p-4 items-center bg-white border border-gray-200 rounded-xl shadow-lg dark:bg-neutral-800 dark:border-neutral-700">
+      <div class="shrink-0">
+        <app-icon name="alert" size="w-6 h-6" color="text-white"/>
+      </div>
+      <div class="ms-3">
+        <p id="hs-toast-normal-example-label" class="text-xs sm:text-sm text-white ">
+          Select two markers to calculate distance.
+        </p>
+      </div>
+    </div>
+</div>
+}
 
 <!-- [class.bg-green-600]="isRouteMode"
 [class.text-white]="isRouteMode"
